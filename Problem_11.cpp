@@ -1,3 +1,11 @@
+/* 
+The purpose is to calculate the maximum area.
+The pair of points start at the right and the left end, and they shift to the center.
+Since the bottom gets smaller, and the height should be higher than the previous one 
+to the next area have the possibility of being greater than the previous area.   
+Since the lower bar determines the height, we need to move on the lower bar.
+*/
+
 #include <vector>
 using namespace std;
 
